@@ -1,0 +1,2 @@
+class NoParams(Exception):
+    pass
