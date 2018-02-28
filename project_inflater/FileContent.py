@@ -38,7 +38,7 @@ class FileContent(object):
                     self.__filepath__,
                     '..',
                     'resources',
-                    '.sample_gitignore')) as f:
+                    '.gitignore_sample')) as f:
             self.fiels_dict['./.gitignore'] = f.read()
 
     def get_files_dict(self):

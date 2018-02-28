@@ -1,7 +1,7 @@
 import sys
-from .ParamParser import ParamParser
-from .ProjectInflator import ProjectInflator
-from .NoParams import NoParams
+from project_inflater.ParamParser import ParamParser
+from project_inflater.ProjectInflator import ProjectInflator
+from project_inflater.NoParams import NoParams
 
 
 parser = ParamParser()
