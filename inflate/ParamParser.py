@@ -14,7 +14,7 @@ class ParamParser(object):
         self.params = dict()
 
         self.argnames = ['[project_name]']
-        self.usage = 'usage: %prog'
+        self.usage = 'usage: inflate'
 
         for argname in self.argnames:
             self.usage += ' ' + argname
